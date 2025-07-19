@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "ai-llm-agent-example"
+version = "0.1.0"
+description = ""
+authors = ["Krzysztof Satola <krzysztof.satola@gmail.com>"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
