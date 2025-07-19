@@ -15,7 +15,9 @@ RUN apt-get update && apt-get install --no-install-suggests --no-install-recomme
     git \
     curl \
     pipx \
-    awscli \
+    #awscli \
+    # https://stackoverflow.com/questions/40216311/reading-in-environment-variables-from-an-environment-file
+    python3-dotenv \
     mc
 
 # Install Google chrome in a docker container
